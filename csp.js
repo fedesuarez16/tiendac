@@ -20,6 +20,7 @@ const policies = {
   ],
   'connect-src': [
     "'self'",
+    'http://localhost:3000', // Agrega localhost aquí
     'https://checkout.stripe.com',
     'https://api.stripe.com',
     'https://maps.googleapis.com',
